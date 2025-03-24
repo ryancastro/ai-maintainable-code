@@ -1,0 +1,12 @@
+title: AI-Maintainable Code Specification
+purpose: Define and promote a metadata pattern to make codebases understandable to LLMs
+pipeline:
+  - metadata_annotation
+  - context_loading
+  - LLM_pair_programming
+entrypoints:
+  spec: ai-meta-spec.md
+  examples: example/
+tools:
+  - any LLM (GPT, Claude, Ollama, etc.)
+  - text editor or IDE

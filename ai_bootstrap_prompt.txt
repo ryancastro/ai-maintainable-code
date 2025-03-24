@@ -1,0 +1,1 @@
+This project follows the AI-maintainable code pattern. Use the `ai_context.yml` and `@ai:` inline comments to understand file purpose, data flow, and pipeline structure. Prioritize these when making decisions or suggestions.
