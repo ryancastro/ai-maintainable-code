@@ -60,10 +60,10 @@ tools:
 ---
 **💬 @aif: File header comments**
 
-A single-line file header comment (similar to `#!/bin/bash`) describes the files purpose and function to AI
+One or more file header comments (similar to `#!/bin/bash`) describe the files purpose and function to AI. The purpose is for automated tools to scan one or more files, folders, or the entire project to gain system-wide context, without consuming every available token.
 
 ```
-# @ai: Fetches core article data. Provides all relevant methods to wiki article access and parsing.
+# @aif: Fetches core article data. Provides all relevant methods to wiki article access and parsing.
 ```
 
 ---
